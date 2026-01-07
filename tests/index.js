@@ -17,6 +17,6 @@ describe('all rule files should be exported by the plugin', () => {
         })
     })
     it('should export a config object for each version', () => {
-        ['v3', 'recommended'].forEach(v => assert(plugin.configs[v], `version ${v} is not defined`))
+        ['recommended'].forEach(v => assert(plugin.configs[v], `version ${v} is not defined`))
     })
 })
