@@ -2,7 +2,7 @@
 
 const pkg = require('../../package')
 
-const REPO_URL = 'https://github.com/wix/eslint-plugin-lodash'
+const REPO_URL = 'https://github.com/tomerh2001/eslint-plugin-lodash'
 
 /**
 * Generates the URL to documentation for the given rule name. It uses the
