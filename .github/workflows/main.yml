@@ -29,8 +29,8 @@ jobs:
     - name: Install Dependencies
       run: bun install --dev
 
-    - name: Verify ESLint flat configs
-      run: node ./scripts/verify.mjs
+    - name: Run Unit Tests
+      run: bun test ./tests/lib/rules/*.js
 
     - name: Semantic Release
       run: bunx semantic-release
