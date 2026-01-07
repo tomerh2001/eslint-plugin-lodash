@@ -1,0 +1,40 @@
+name: Semantic Versioning
+
+on:
+  push:
+    branches:
+    - main
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
+      id-token: write
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Setup Bun
+      uses: oven-sh/setup-bun@v1
+
+    - name: Setup Node.js environment
+      uses: actions/setup-node@v4
+      with:
+        node-version: "22.x"
+
+    - name: Install Dependencies
+      run: bun install --dev
+
+    - name: Verify ESLint flat configs
+      run: node ./scripts/verify.mjs
+
+    - name: Semantic Release
+      run: bunx semantic-release
+      env:
+        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        GH_REPO: ${{ github.server_url }}/${{ github.repository }}
