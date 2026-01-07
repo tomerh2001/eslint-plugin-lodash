@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/tomerh2001/eslint-plugin-lodash/compare/v1.0.0...v1.0.1) (2026-01-07)
+
+
+### Bug Fixes
+
+* update package name to include scope ([d7c0898](https://github.com/tomerh2001/eslint-plugin-lodash/commit/d7c08985493621ef9c1bf6969c9060c2238eac39))
+
 # 1.0.0 (2026-01-07)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "@tomerh2001/eslint-plugin-lodash",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fork of eslint-plugin-lodash. has more rules than the original version.",
   "main": "src/index.js",
   "scripts": {
