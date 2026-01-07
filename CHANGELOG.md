@@ -1,3 +1,23 @@
+# 1.0.0 (2026-01-07)
+
+
+### Bug Fixes
+
+* added some safeguards for prefer-is-empty-rule ([3c406ec](https://github.com/tomerh2001/eslint-plugin-lodash/commit/3c406ec8ec1a719ed7a77ad168b47cfda143dfd7))
+* added some safeguards to prefer-nullish-coalescing rule ([1e1c66d](https://github.com/tomerh2001/eslint-plugin-lodash/commit/1e1c66d5e1810d7f9116e309a841d8b649036055))
+* Autofix for paths with double member access ([#230](https://github.com/tomerh2001/eslint-plugin-lodash/issues/230)) ([abe029f](https://github.com/tomerh2001/eslint-plugin-lodash/commit/abe029f090ee5d215bc8c7b2b63aceae77869a07))
+* Lodash security vulnerability ([#208](https://github.com/tomerh2001/eslint-plugin-lodash/issues/208)) ([11b7d91](https://github.com/tomerh2001/eslint-plugin-lodash/commit/11b7d914d86dc0e3224de57bb7641496e73e2020))
+* test ([14903f3](https://github.com/tomerh2001/eslint-plugin-lodash/commit/14903f30faf0416579686421321a8c65df75e738))
+* update ESLint peer dependency and dev dependency versions; refactor source code access in rules ([265ea9c](https://github.com/tomerh2001/eslint-plugin-lodash/commit/265ea9c00910d58ccb2ea902c1abf2b1bd9c5b4c))
+* update repository URL in getDocsUrl function ([bc86d6b](https://github.com/tomerh2001/eslint-plugin-lodash/commit/bc86d6bb1867df75a496a4ee7c36ecd14e7f2098))
+
+
+### Features
+
+* add prefer-includes-list rule to enforce _.includes usage over equality comparisons ([d5bb0f2](https://github.com/tomerh2001/eslint-plugin-lodash/commit/d5bb0f2e84cec3826f650268d2b6364fde12d2da))
+* added more test cases ([bf58402](https://github.com/tomerh2001/eslint-plugin-lodash/commit/bf5840221a070424a0d6aed40b31caed0990bd9a))
+* added prefer-is-empty rule ([6e94e65](https://github.com/tomerh2001/eslint-plugin-lodash/commit/6e94e65809a24a6373025aac69802da83b5067bc))
+
 ### Changelog
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
