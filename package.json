@@ -1,13 +1,6 @@
 {
-  "name": "eslint-plugin-lodash-f",
+  "name": "eslint-plugin-lodash",
   "version": "7.6.0",
-  "author": "Andrea Pontrandolfo <andrea.pontra@gmail.com>",
-  "contributors": [
-    {
-      "name": "Omer Ganim",
-      "email": "ganimomer@gmail.com"
-    }
-  ],
   "description": "Fork of eslint-plugin-lodash. has more rules than the original version.",
   "main": "src/index.js",
   "scripts": {
@@ -25,25 +18,20 @@
     "src",
     "docs"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/AndreaPontrandolfo/eslint-plugin-lodash"
-  },
-  "homepage": "https://github.com/AndreaPontrandolfo/eslint-plugin-lodash",
-  "bugs": "https://github.com/AndreaPontrandolfo/eslint-plugin-lodash/issues",
-  "peerDependencies": {
-    "eslint": ">=9.29.0"
-  },
   "devDependencies": {
+    "@eslint/eslintrc": "^3.3.3",
+    "@eslint/js": "^9.39.2",
+    "@types/mocha": "^10.0.10",
     "auto-changelog": "^2.4.0",
     "coveralls": "^3.1.1",
     "cross-env": "^7.0.3",
-    "eslint": "^9.29.0",
+    "eslint": "^8.57.1",
     "eslint-config-wix-editor": "^8.4.2",
     "eslint-import-resolver-node": "^0.3.6",
     "eslint-plugin-eslint-plugin": "^4.2.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-traverser": "^1.5.2",
+    "globals": "^17.0.0",
     "mocha": "^9.2.2",
     "nyc": "^15.1.0"
   },
