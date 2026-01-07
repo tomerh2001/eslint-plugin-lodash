@@ -60,5 +60,5 @@
   "dependencies": {
     "lodash": "^4.17.21"
   },
-  "packageManager": "yarn@1.22.22"
+  "packageManager": "yarn@4.12.0"
 }
